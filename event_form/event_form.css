@@ -1,73 +1,9 @@
-/* selects element */
 body{
     background-color: #111E2B;
     color: white;
     font-family: Poppins;
+    margin: 5% 20% 0 20%;
 }
-
-/* selects class */
-.container {
-    margin-top: 7%;
-}
-
-.login-description{
-    margin-top: 10px;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: light;
-}
-
-
-.top-landing-left{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: end;
-}
-
-
-.welcome{
-    letter-spacing: 10px;
-    text-align: right;
-    
-}
-
-.flyer{
-    letter-spacing: 10px;
-    display: flex;
-    justify-self: end;
-    align-items: end;
-}
-
-
-.row{
-   justify-content: center;
-}
-
-.right{
-     display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.get-started{
-    border-radius: 20px;
-    font-size: 200%;
-    margin-left: 35%;
-    margin-top: 10px;
-}
-
-.logo {
-    position: relative;
-    height: 350px;
-    width: 350px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: block;
-    margin-bottom: 20px;
-  }
-
 
 /* selects input of type text */
 input[type="text"]{
@@ -145,16 +81,4 @@ button{
     text-align: center;
     font-size: small;
     margin-top: 25px;
-}
-
-/* selects id security question */
-#security-question{
-       top: -10px;
-       margin-left: 10px;
-    font-size: 13px;
-    background-color: #6D7634;
-    color: #fff;
-    font-size: medium;
-    margin-bottom: 20px;
-    width: 300px;
 }
